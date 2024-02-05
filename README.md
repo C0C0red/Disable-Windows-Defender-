@@ -87,7 +87,7 @@ If you explain what happened in a nutshell:
 Windows has a process like winlogon, it runs with the system and is responsible for user authorization. We will duplicate the token of this process and run our own program with the stolen token.
 
 <h2 align="center"></h2>
-<img src="https://github.com/EvilGreys/Disable-Windows-Defender-/blob/main/imge/2.png" 
+<img src="https://github.com/EvilGreys/Disable-Windows-Defender-/blob/main/imge/2.jpeg" 
 <p align="center">
 
 - OpenProcessToken() -- Open the process token with the TOKEN_DUPLICATE access level (we get the token handle at the output)
